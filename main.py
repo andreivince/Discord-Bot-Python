@@ -1,4 +1,6 @@
 import discord
+import hide
+
 
 intents = discord.Intents.all()
 client = discord.Client(command_prefix='!', intents = intents)
@@ -23,4 +25,4 @@ async def on_message(message):
 
 
 
-client.run("MTA4OTIyNDIxNDg2ODkyMjQ4MA.GJPy_o.wld7rCM0Hlk1aKkA6Qzc6V7rUnnxFg4N-E7API")
+client.run(hide.Token)
